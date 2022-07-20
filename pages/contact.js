@@ -1,14 +1,14 @@
-import Layout from "../components/layout/Layout";
 import Head from "../components/layout/Head";
+import Layout from "../components/layout/Layout";
 
-export default function Home() {
+export default function Contact() {
  return (
   <>
    <Layout>
-   <Head title="Home"/>
+   <Head title="Contact"/>
 
    <div className="container">
-    <h1>Home page</h1>
+    <h1>Contact</h1>
    </div>
   </Layout>
   </>
